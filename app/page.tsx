@@ -64,6 +64,8 @@ export default function Home() {
           margin: 0;
         }
 
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
         .cv-wrap {
           font-family: 'Syne', sans-serif;
           background: var(--color-background-primary);
