@@ -61,6 +61,7 @@ export default function Home() {
           min-height: 100vh;
           padding: 16px;
           font-family: 'Syne', sans-serif;
+          margin: 0;
         }
 
         .cv-wrap {
@@ -341,7 +342,6 @@ export default function Home() {
         @media (max-width: 640px) {
           body {
             padding: 0;
-            background: #f5f5f0;
           }
 
           .cv-wrap {
@@ -533,7 +533,9 @@ export default function Home() {
             <div style={{ marginBottom: "20px" }}>
               <div className="section-title">Men haqimda</div>
               <p style={{ fontSize: "12px", color: "var(--color-text-secondary)", lineHeight: 1.6 }}>
-                Samarqand shahridan bo&apos;lgan, hozirda Toshkentda yashaydigan Frontend dasturchiman. PDP Academy&apos;da chuqurlashtirilgan o&apos;qish orqali zamonaviy web texnologiyalarni o&apos;rganib, real loyihalar yaratish tajribasiga ega bo&apos;ldim. Hozirda startup loyiha ustida ishlamoqdaman.
+                Samarqand shahridan bo&apos;lgan, hozirda Toshkentda yashaydigan Frontend dasturchiman. 
+                PDP Academy&apos;da chuqurlashtirilgan o&apos;qish orqali zamonaviy web texnologiyalarni 
+                o&apos;rganib, real loyihalar yaratish tajribasiga ega bo&apos;ldim. Hozirda startup loyiha ustida ishlamoqdaman.
               </p>
             </div>
 
@@ -557,7 +559,10 @@ export default function Home() {
                 <a className="proj-link" href="https://automarket-two.vercel.app/" target="_blank" rel="noopener noreferrer">
                   automarket-two.vercel.app ↗
                 </a>
-                <div className="proj-desc">Avtomobil sotish platformasi — PDP Academy&apos;dagi yakuniy loyiha. Foydalanuvchi interfeysi, filtrlash va mahsulot ko&apos;rish funksiyalari.</div>
+                <div className="proj-desc">
+                  Avtomobil sotish platformasi — PDP Academy&apos;dagi yakuniy loyiha. 
+                  Foydalanuvchi interfeysi, filtrlash va mahsulot ko&apos;rish funksiyalari.
+                </div>
                 <div className="proj-tags">
                   <span className="proj-tag">React</span>
                   <span className="proj-tag">JavaScript</span>
@@ -574,7 +579,10 @@ export default function Home() {
                 <a className="proj-link" href="https://flow-market-virid.vercel.app/uz/home" target="_blank" rel="noopener noreferrer">
                   flow-market-virid.vercel.app ↗
                 </a>
-                <div className="proj-desc">Hozirda rivojlantirilayotgan startup bozor loyihasi. Ko&apos;p tilli qo&apos;llab-quvvatlash (O&apos;zbek) bilan ishlab chiqilgan zamonaviy marketplace platformasi.</div>
+                <div className="proj-desc">
+                  Hozirda rivojlantirilayotgan startup bozor loyihasi. 
+                  Ko&apos;p tilli qo&apos;llab-quvvatlash (O&apos;zbek) bilan ishlab chiqilgan zamonaviy marketplace platformasi.
+                </div>
                 <div className="proj-tags">
                   <span className="proj-tag">Next.js</span>
                   <span className="proj-tag">TypeScript</span>
@@ -587,7 +595,8 @@ export default function Home() {
             <div>
               <div className="section-title">Qo&apos;shimcha</div>
               <p style={{ fontSize: "12px", color: "var(--color-text-secondary)", lineHeight: 1.6 }}>
-                Jamoa bilan ishlash, yangi texnologiyalarni tez o&apos;rganish va clean code yozishga ishtiyoqli. Frontend sohada o&apos;sish va real dunyodagi muammolarni hal qiluvchi mahsulotlar yaratishga intilaman.
+                Jamoa bilan ishlash, yangi texnologiyalarni tez o&apos;rganish va clean code yozishga ishtiyoqli. 
+                Frontend sohada o&apos;sish va real dunyodagi muammolarni hal qiluvchi mahsulotlar yaratishga intilaman.
               </p>
             </div>
           </div>
